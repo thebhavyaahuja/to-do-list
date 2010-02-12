@@ -4,4 +4,4 @@ I like it. First webpage I made yay.
 
 wow
 
-This is insane lmao JAllu bhai
+This is insane lmao JAllu bhai jale nahi barabari kare
