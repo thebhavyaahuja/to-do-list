@@ -1,0 +1,118 @@
+body{
+    background-color: #e79fdc;
+    background-image:linear-gradient(to bottom right,#40ccef,#e363ec);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    /* /* display: flex; */
+    justify-content: center;
+    align-items: center; 
+ }
+/* gradient: linear-gradient(90deg, rgb(91, 37, 83) 0%, rgba(255,255,255,1) 100%); */
+
+.heading{
+  font-family:Arial;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+    font-size: 50px;
+    
+margin-top: 40px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box{
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    border:none;
+    border-radius:10px;
+    padding: 5px;
+    margin-top: 15px;
+}
+.add{
+    margin-left:5px;
+    margin-top:12px;
+    border:5;
+    border-color: azure;
+    color:rgb(255, 255, 255);
+    border-radius:10px;
+    padding: 5px;
+    background-color: #ee7edd;
+}
+.add:hover{
+    background-color: #e79fdc;
+    cursor:pointer;
+}
+.footer{
+    font-family:Arial;
+    margin-bottom:0;
+    color:white;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align: right;
+    font-size: 15px;
+    font-family: Arial;
+    color:white;
+    margin-bottom: 0;
+    margin-right: 100px;
+}
+.foot{
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.list{
+    margin-top: 40px;
+    text-align: left;
+    margin-left:100px;
+    font-family:Arial;
+    font-size: 16px;
+    color:white;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    display:inline-block;
+}
+ul{
+    margin:0;
+    padding:5px;
+}
+ul li{
+    margin: 10px;
+    transition:0.15s;
+    cursor:pointer;
+    background: #7b2693;
+    background-image:linear-gradient(to bottom right,#cf6bea,#4c8dd3);
+    border-radius: 10px;
+    padding:10px;
+    border:2px solid white;
+}
+ul li:hover{
+    background: #7b2693;
+    background-image:linear-gradient(to bottom right,#cf6bea,#4c8dd3);
+    opacity:0.5;
+    border-radius: 10px;
+    padding:10px;
+    border:2px solid white;
+}
+ul li:active{
+    background: #7b2693;
+    background-image:linear-gradient(to bottom right,#cf6bea,#4c8dd3);
+    opacity:0.3;
+    border-radius: 10px;
+    padding:10px;
+    border:2px solid white;
+}
+ul li.checked{
+    text-decoration: line-through;
+    color:rgb(255, 255, 255);
+    opacity:0.35;
+}
